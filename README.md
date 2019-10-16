@@ -1,61 +1,18 @@
-# The XRP Ledger
+With the rapid development of block chain, major exchanges were born.At present, there are more than 1,200 types of digital currency in the world, and the daily trading volume on the market is about 250 billion yuan, only a third of the peak in January 2018. After more than a month of bull market, the global digital currency market gradually fell back to the level of December 2017, and the market situation gradually returned to normal. By the end of 2018, the total market value of digital currencies was nearly 2.5 trillion yuan. The top 20 global exchanges for digital currency trading by transaction value is BitMEX, with OKEX dropping to no. 2. There are 11 trading platforms with more than 100 transactions, among which, BitBTC is over 600 and OKEX is close to 500, which indicates that there are a variety of trades to choose from. However, there are also many problems, such as frequent attacks on trading systems by hackers, internal theft of exchanges, unfair profit distribution mechanism, and complete ecological independence among exchanges, resulting in no exchange of value and information.
 
-The XRP Ledger is a decentralized cryptographic ledger powered by a network of peer-to-peer servers. The XRP Ledger uses a novel Byzantine Fault Tolerant consensus algorithm to settle and record transactions in a secure distributed database without a central operator.
+To change that, we have to break through. We try to link all the exchanges together, just as the Swift protocol unites all the Banks in the world, and the exchanges now correspond to each individual bank. If the data between exchanges can be exchanged in real time, it can realize value exchange, protect the security of the exchange and protect the basic rights and interests of users. However, this is only our initial idea and it is not easy to realize. Therefore, we gathered a group of like-minded top professionals for research and development. After two years and three months of unremitting efforts, we experienced 37 failures, large and small. On March 1, 2019, we finally achieved the long-expected success，In the future, history will surely remember this glorious moment. We have finally developed a protocol that is more powerful than Swift, which will not only be used for exchanges, but also have more application space, so we call it Global currency circulation (GCC). To realize the value of GCC, we must quickly build a new trading system, and this system must be decentralized. So we started developing a new trading system based on the GCC agreement, and it was successful in August 2019. After two months of testing, we've made sure everything is ok and decided to launch it by November 2019, which is the global intelligent trading center.We are not building a new exchange, but we are connecting exchanges around the world through global intelligent trading center and GCC protocols. Public block chain as the core technology of exchange, it is based on block chain technology, to provide a unified global exchange exchange layer, make the global unification interconnection between exchanges, the exchanges and out of the scattered islands, realizing fast circulation of information, the value and the expansion of transaction speed and breadth, and the subversive agreement is GCC.
 
-## XRP
-XRP is a public, counterparty-free asset native to the XRP Ledger, and is designed to bridge the many different currencies in use worldwide. XRP is traded on the open-market and is available for anyone to access. The XRP Ledger was created in 2012 with a finite supply of 100 billion units of XRP. Its creators gifted 80 billion XRP to a company, now called [Ripple](https://ripple.com/), to develop the XRP Ledger and its ecosystem. Ripple uses XRP to help build the Internet of Value, ushering in a world in which money moves as fast and efficiently as information does today.
+GCC underlying protocol is applicable to all accounting systems and can accommodate the differences of all accounting systems. It will create a unified global payment standard and create a unified network financial transmission protocol. In the value network of global intelligent trading center, the more connected effective nodes and the wider the distribution, the greater the superimposed value will be generated. In order to make each independent exchange realize interconnection and transfer value freely, we developed the GCC underlying protocol to connect and expand different exchanges and build a highway of value network.The underlying GCC protocol creates a completely new system. In this system, two different accounting systems can freely transfer money to each other through third-party "connectors" or "verification machines."The billing system does not need to trust the connector, because the protocol USES a cryptographic algorithm that automatically creates a trust for the two billing systems and the connector, and when all parties agree on the amount of money, they can trade with each other.
+In the short term, the GCC underlying protocol can improve payment efficiency between exchanges.In the long run, the adoption rate of digital currency can be increased because GCC protocol can link all accounting systems together. The global intelligent trading center will eventually lead companies to adopt these online accounting systems as a way to transfer value, not just currencies, but also stocks, other financial securities, and home and vehicle ownership. The GCC keeps track of all transactions on the exchange. If the exchange system is attacked by hackers, they must break through the barrier of GCC to successfully transfer COINS out.GCC is like countless mobile air fortress, and gives every exchange the strongest protection system, so as to comprehensively strengthen the security of the exchange system, It has also made it impossible for exchanges to use the excuse of inside job， thus ensuring the rights and security of all users. To sum up, the global smart trading center has realized support for innovation and exchange linkage：
 
-## rippled
-The server software that powers the XRP Ledger is called `rippled` and is available in this repository under the permissive [ISC open-source license](LICENSE). The `rippled` server is written primarily in C++ and runs on a variety of platforms.
+1）Supports secure transfers between ledger accounts and allows any account on two ledger accounts to establish a connection between the accounts;
+2）Does not rely on any global coordinating system or ledger to process payments;
+3）Assembling connectors into chains can be paid between any ledger;
+4）Provide the same network effects as the most mature systems for exchanges or new payment systems；
+5）The security of exchanges and users is increased comprehensively, while the basic rights and interests of users are protected；
 
-### Build from Source
+Such a simple statement does not express the power of the global smart trading centers combined with GCC, nor does it accurately describe their value.We will publish the white paper and the open source code by October 19th. Please read the white paper carefully and you will be as excited as we are.
 
-* [Linux](Builds/linux/README.md)
-* [Mac](Builds/macos/README.md)
-* [Windows](Builds/VisualStudio2017/README.md)
-
-## Key Features of the XRP Ledger
-
-- **[Censorship-Resistant Transaction Processing][]:** No single party decides which transactions succeed or fail, and no one can "roll back" a transaction after it completes. As long as those who choose to participate in the network keep it healthy, they can settle transactions in seconds.
-- **[Fast, Efficient Consensus Algorithm][]:** The XRP Ledger's consensus algorithm settles transactions in 4 to 5 seconds, processing at a throughput of up to 1500 transactions per second. These properties put XRP at least an order of magnitude ahead of other top digital assets.
-- **[Finite XRP Supply][]:** When the XRP Ledger began, 100 billion XRP were created, and no more XRP will ever be created. The available supply of XRP decreases slowly over time as small amounts are destroyed to pay transaction costs.
-- **[Responsible Software Governance][]:** A team of full-time, world-class developers at Ripple maintain and continually improve the XRP Ledger's underlying software with contributions from the open-source community. Ripple acts as a steward for the technology and an advocate for its interests, and builds constructive relationships with governments and financial institutions worldwide.
-- **[Secure, Adaptable Cryptography][]:** The XRP Ledger relies on industry standard digital signature systems like ECDSA (the same scheme used by Bitcoin) but also supports modern, efficient algorithms like Ed25519. The extensible nature of the XRP Ledger's software makes it possible to add and disable algorithms as the state of the art in cryptography advances.
-- **[Modern Features for Smart Contracts][]:** Features like Escrow, Checks, and Payment Channels support cutting-edge financial applications including the [Interledger Protocol](https://interledger.org/). This toolbox of advanced features comes with safety features like a process for amending the network and separate checks against invariant constraints.
-- **[On-Ledger Decentralized Exchange][]:** In addition to all the features that make XRP useful on its own, the XRP Ledger also has a fully-functional accounting system for tracking and trading obligations denominated in any way users want, and an exchange built into the protocol. The XRP Ledger can settle long, cross-currency payment paths and exchanges of multiple currencies in atomic transactions, bridging gaps of trust with XRP.
-
-[Censorship-Resistant Transaction Processing]: https://developers.ripple.com/xrp-ledger-overview.html#censorship-resistant-transaction-processing
-[Fast, Efficient Consensus Algorithm]: https://developers.ripple.com/xrp-ledger-overview.html#fast-efficient-consensus-algorithm
-[Finite XRP Supply]: https://developers.ripple.com/xrp-ledger-overview.html#finite-xrp-supply
-[Responsible Software Governance]: https://developers.ripple.com/xrp-ledger-overview.html#responsible-software-governance
-[Secure, Adaptable Cryptography]: https://developers.ripple.com/xrp-ledger-overview.html#secure-adaptable-cryptography
-[Modern Features for Smart Contracts]: https://developers.ripple.com/xrp-ledger-overview.html#modern-features-for-smart-contracts
-[On-Ledger Decentralized Exchange]: https://developers.ripple.com/xrp-ledger-overview.html#on-ledger-decentralized-exchange
-
-
-## Source Code
-[![travis-ci.com: Build Status](https://travis-ci.com/ripple/rippled.svg?branch=develop)](https://travis-ci.com/ripple/rippled)
-[![codecov.io: Code Coverage](https://codecov.io/gh/ripple/rippled/branch/develop/graph/badge.svg)](https://codecov.io/gh/ripple/rippled)
-
-### Repository Contents
-
-| Folder     | Contents                                         |
-|:-----------|:-------------------------------------------------|
-| `./bin`    | Scripts and data files for Ripple integrators.   |
-| `./Builds` | Platform-specific guides for building `rippled`. |
-| `./docs`   | Source documentation files and doxygen config.   |
-| `./cfg`    | Example configuration files.                     |
-| `./src`    | Source code.                                     |
-
-Some of the directories under `src` are external repositories included using
-git-subtree. See those directories' README files for more details.
-
-
-## See Also
-
-* [XRP Ledger Dev Portal](https://developers.ripple.com/)
-* [XRP News](https://ripple.com/category/xrp/)
-* [Setup and Installation](https://developers.ripple.com/install-rippled.html)
-
-To learn about how Ripple is transforming global payments, visit
-<https://ripple.com/contact/>.
+At this point, the future trend will push the global intelligent trading center and GCC protocol to the top of the world, looking forward to your participation.
+         
+                                                                                                    The GCC team
