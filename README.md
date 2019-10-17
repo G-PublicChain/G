@@ -6,9 +6,13 @@ GCC underlying protocol is applicable to all accounting systems and can accommod
 In the short term, the GCC underlying protocol can improve payment efficiency between exchanges.In the long run, the adoption rate of digital currency can be increased because GCC protocol can link all accounting systems together. The global intelligent trading center will eventually lead companies to adopt these online accounting systems as a way to transfer value, not just currencies, but also stocks, other financial securities, and home and vehicle ownership. The GCC keeps track of all transactions on the exchange. If the exchange system is attacked by hackers, they must break through the barrier of GCC to successfully transfer COINS out.GCC is like countless mobile air fortress, and gives every exchange the strongest protection system, so as to comprehensively strengthen the security of the exchange system, It has also made it impossible for exchanges to use the excuse of inside job， thus ensuring the rights and security of all users. To sum up, the global smart trading center has realized support for innovation and exchange linkage：
 
 1）Supports secure transfers between ledger accounts and allows any account on two ledger accounts to establish a connection between the accounts;
+
 2）Does not rely on any global coordinating system or ledger to process payments;
+
 3）Assembling connectors into chains can be paid between any ledger;
+
 4）Provide the same network effects as the most mature systems for exchanges or new payment systems；
+
 5）The security of exchanges and users is increased comprehensively, while the basic rights and interests of users are protected；
 
 Such a simple statement does not express the power of the global smart trading centers combined with GCC, nor does it accurately describe their value.We will publish the white paper and the open source code by October 19th. Please read the white paper carefully and you will be as excited as we are.
