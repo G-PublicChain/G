@@ -19,4 +19,6 @@ Such a simple statement does not express the power of the global smart trading c
 
 At this point, the future trend will push the global intelligent trading center and GCC protocol to the top of the world, looking forward to your participation.
          
-                                                                                                    The GCC team
+Download:Gcccc.cc
+
+System code:gccgcc
